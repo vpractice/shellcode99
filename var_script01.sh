@@ -1,5 +1,5 @@
 #! /bin/bash
-
+#comments added
 read -p "Enter First Number" number1
 read -p "Enter second Number" number2
 
@@ -38,5 +38,4 @@ echo "$number1"
 echo "SUBTRACT: $(( number1-=10 ))"
 echo "$number1"
 
-
-echo " MULTIPLY: $(( number1*=10 ))"
+echo "new change"
