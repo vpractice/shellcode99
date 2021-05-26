@@ -33,9 +33,14 @@ number1=$((number1 +3 ))
 echo "value=  $number1"
 
 echo "ADD:  $((  number1+=3  )) "
+echo "ADD:  $((  number1+=3  )) "
+echo "ADD:  $((  number1+=3  )) "
+echo "ADD:  $((  number1+=3  )) "
 echo "$number1"
 
 echo "SUBTRACT: $(( number1-=10 ))"
 echo "$number1"
 
+echo "ADD:  $((  number1+=3  )) "
+echo "ADD:  $((  number1+=3  )) "
 echo "new change"
